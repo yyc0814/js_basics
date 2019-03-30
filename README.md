@@ -89,7 +89,9 @@ localStorage sessionStorage cookies
 localStorage and session are both so-called WebStorages and features of HTML5.
 
 localStorage on user side /larger storage base on browser / no expiration till user delete them 
+
 session store on server side/ the data is stored until the browser (or tab) is closed. / 5MB
+
 cookies store on user side/4KB / login status, shopping cart
 
 https://juejin.im/post/5c6bcdc8e51d45209a1ca3b6
