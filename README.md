@@ -92,13 +92,15 @@ setInterval()
 ## CROSS DOMAIN
 JSONP
 #### 1.
+
+```javascript
 <script src="http://domain/api?param1=a&param2=b&callback=jsonp"></script>
 <script>
     function jsonp(data) {
     	console.log(data)
 	}
 </script>
-
+```
 
 #### 2.
 
