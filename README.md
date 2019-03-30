@@ -22,6 +22,30 @@ foo.increment();
 foo.get(); // 5
 ```
 
+### scope change with setTimeout
+```javascript
+for(var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i);  
+    }, 1000);
+}
+
+//5 for 5 times
+```
+
+to resolve the issue
+
+```javascript
+for(var i = 0; i < 5; i++) {
+    (function(j){
+    setTimeout(function() {
+        console.log(j);  
+    }, 1000);
+    })(i)
+}
+```
+
+
 #### 0.2+0.1 is not 0.3
 #### use math.js or decimal.js to resolve it
 
@@ -77,6 +101,8 @@ JSONP
 
 
 #### 2.
+
+```javascript
 function jsonp(url, jsonpCallback, success) {
   let script = document.createElement('script')
   script.src = url
@@ -90,6 +116,7 @@ function jsonp(url, jsonpCallback, success) {
 jsonp('http://xxx', 'callback', function(value) {
   console.log(value)
 })
+```
 
 #### 3.
 CORS
