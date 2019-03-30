@@ -1,3 +1,26 @@
+## closure
+http://bonsaiden.github.io/JavaScript-Garden/#function.closures
+Closures and References
+One of JavaScript's most powerful features is the availability of closures. With closures, scopes always keep access to the outer scope, in which they were defined. Since the only scoping that JavaScript has is function scope, all functions, by default, act as closures.
+
+```javascript
+function Counter(start) {
+    var count = start;
+    return {
+        increment: function() {
+            count++;
+        },
+
+        get: function() {
+            return count;
+        }
+    }
+}
+
+var foo = Counter(4);
+foo.increment();
+foo.get(); // 5
+```
 
 #### 0.2+0.1 is not 0.3
 #### use math.js or decimal.js to resolve it
