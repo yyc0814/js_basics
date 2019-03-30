@@ -143,6 +143,7 @@ method executes a reducer function (that you provide) on each member of the arra
 method creates a new array with the results of calling a provided function on every element in the calling array.
 
 pokemonName.call(pokemon,'sushi', 'algorithms'); // Pika Chu  loves sushi and algorithms
+
 pokemonName.apply(pokemon,['sushi', 'algorithms']); // Pika Chu  loves sushi and algorithms
 
 ## immutability 
