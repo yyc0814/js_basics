@@ -1,4 +1,9 @@
 ## closure
+A closure is the combination of a function and the lexical environment within which that function was declared. This environment consists of any local variables that were in-scope at the time the closure was created - MDN
+
+Closures are useful because they let you associate some data (the lexical environment) with a function that operates on that data. Objects allow us to associate some data (the object's properties) with one or more methods.
+
+Inner function can access variables declared in the parent function
 http://bonsaiden.github.io/JavaScript-Garden/#function.closures
 Closures and References
 One of JavaScript's most powerful features is the availability of closures. With closures, scopes always keep access to the outer scope, in which they were defined. Since the only scoping that JavaScript has is function scope, all functions, by default, act as closures.
