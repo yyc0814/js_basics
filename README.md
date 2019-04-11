@@ -3,6 +3,8 @@ A closure is the combination of a function and the lexical environment within wh
 
 Closures are useful because they let you associate some data (the lexical environment) with a function that operates on that data. Objects allow us to associate some data (the object's properties) with one or more methods.
 
+JavaScript does not provide a native way of private method, but it is possible to emulate it using closures. 
+
 Inner function can access variables declared in the parent function
 http://bonsaiden.github.io/JavaScript-Garden/#function.closures
 Closures and References
