@@ -62,6 +62,24 @@ for(var i = 0; i < 5; i++) {
 }
 ```
 
+```javescript
+for(i = 0; i< 4;i++){
+    let index = i;
+    setTimeout(function(){
+        console.log(index)
+    }, 200)
+}
+```
+fix with
+```javascript
+for(i = 0; i< 4;i++){
+    (function(i){
+        setTimeout(function(){
+        console.log(i)
+    }, 200)}(i))
+}
+```
+
 
 #### 0.2+0.1 is not 0.3
 #### use math.js or decimal.js to resolve it
