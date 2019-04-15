@@ -1,5 +1,6 @@
 [closure](#closure)  
 [scope-change-with-setTimeout?](#scope-change-with-setTimeout)  
+[Promise](#Promise)  
 [microtask](#microtask)  
 [CROSS-DOMAIN](#CROSS-DOMAIN)  
 [curry-function](#curry-function)  
