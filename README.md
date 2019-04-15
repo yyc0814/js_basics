@@ -1,10 +1,10 @@
-[closure](#closure) /br
-[scope-change-with-setTimeout?](#scope-change-with-setTimeout)
-[microtask](#microtask)
-[CROSS-DOMAIN](#CROSS-DOMAIN)
-[curry-function](#curry-function)
-[reduce()](#reduce())
-[immutability](#immutability)
+[closure](#closure) /br  
+[scope-change-with-setTimeout?](#scope-change-with-setTimeout)  
+[microtask](#microtask)  
+[CROSS-DOMAIN](#CROSS-DOMAIN)  
+[curry-function](#curry-function)  
+[reduce()](#reduce())  
+[immutability](#immutability)  
 
 
 ## closure
