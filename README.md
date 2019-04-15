@@ -4,7 +4,7 @@
 [microtask](#microtask)  
 [CROSS-DOMAIN](#CROSS-DOMAIN)  
 [curry-function](#curry-function)  
-[reduce()](#reduce())  
+[reduce](#reduce)  
 [immutability](#immutability)  
 
 
@@ -207,7 +207,7 @@ function multiply(a) {
 
 
 
-### reduce() 
+### reduce  
 method executes a reducer function (that you provide) on each member of the array resulting in a single output value.
 
 ### map() 
