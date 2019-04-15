@@ -1,4 +1,11 @@
+[closure](#closure)
 [scope-change-with-setTimeout?](#scope-change-with-setTimeout)
+[microtask](#microtask)
+[CROSS-DOMAIN](#CROSS-DOMAIN)
+[curry-function](#curry-function)
+[reduce()](#reduce())
+[immutability](#immutability)
+
 
 ## closure
 A closure is the combination of a function and the lexical environment within which that function was declared. This environment consists of any local variables that were in-scope at the time the closure was created - MDN
@@ -98,7 +105,7 @@ setTimeout()
 setInterval()
 ```
 
-## CROSS DOMAIN
+## CROSS-DOMAIN
 JSONP
 #### 1.
 
@@ -163,7 +170,7 @@ sessionStorage stores information as long as the session goes. Usually until the
 
 
 
-## curry function
+## curry-function
 
 1. Write little code modules that can be reused and configured with ease, much like what we do with npm:
 2. Avoid frequently calling a function with the same argument:
