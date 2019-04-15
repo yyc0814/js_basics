@@ -1,4 +1,4 @@
-[closure](#closure) /br  
+[closure](#closure)
 [scope-change-with-setTimeout?](#scope-change-with-setTimeout)  
 [microtask](#microtask)  
 [CROSS-DOMAIN](#CROSS-DOMAIN)  
